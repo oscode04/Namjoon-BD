@@ -1,0 +1,85 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  margin-top: -50px;
+}
+
+.one,
+.two,
+.three,
+.for,
+.five {
+  text-align: center;
+}
+
+.two,
+.three,
+.for {
+  margin-top: -55px;
+}
+
+.five {
+  margin-top: -100px;
+}
+
+.btn-music {
+  display: flex;
+  justify-content: center;
+  margin-top: 45vh;
+}
+.baloons img {
+  display: inline-block;
+  position: absolute;
+}
+
+.baloons img:nth-child(even) {
+  left: -10%;
+}
+
+.baloons img:nth-child(odd) {
+  right: -10%;
+}
+
+.baloons img:nth-child(3n + 0) {
+  left: 30%;
+}
+
+.six {
+  display: flex;
+  justify-content: center;
+}
+
+.najma {
+  width: 280px;
+  margin-top: -300px;
+}
+
+.six .hat {
+  position: absolute;
+  width: 80px;
+  top: 95px;
+  left: 25%;
+}
+
+.hbd {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.doa {
+  text-align: center;
+  margin-top: -500px;
+}
+
+.doa2 {
+  text-align: center;
+  margin-top: -150px;
+  color: #fff;
+  z-index: -2;
+}
